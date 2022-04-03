@@ -25,7 +25,7 @@ const listing = [];
 
   return(
   <div className="lottery">
-    <div class="logo"><img src="/static/media/ThugzNFT-Logo.png" alt="Thugz Life NFT Logo"></img></div>
+    <div class="logo"><img src="ThugzNFT-Logo.png" alt="Thugz Life NFT Logo"></img></div>
     <h1 class="gradient-text">Thugz Lottery</h1>
     <div class="result">{winner !== null ?  winner : null}</div>
     <button onClick={lance}>DRAW THE WINNER NOW</button>
