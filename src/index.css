@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
     background-color: #262626;
+    background-attachment: fixed;
+    background-image: url("https://ranking.thugz.life/static/media/Thugz-Mint-Background.8faf8f06aa0a7a01c6f5.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 code {
@@ -21,11 +26,7 @@ code {
 }
 
 #root {
-  background-attachment: fixed;
-  background-image: url("https://ranking.thugz.life/static/media/Thugz-Mint-Background.8faf8f06aa0a7a01c6f5.png");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin: 50px auto;
 }
 
 .logo img {
