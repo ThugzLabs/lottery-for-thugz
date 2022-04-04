@@ -54,7 +54,6 @@ html, body {
   flex-direction: column-reverse;
   width: 100%;
   height: 100%;
-  font-family: "Chewy";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: scale(1.25);
@@ -153,7 +152,8 @@ input:checked ~ .bevel + span {
 
 .letter-image {
   position: absolute;
-  top: 65%;
+  z-index: 10;
+  top: 60%;
   left: 50%;
   width: 400px;
   height: 200px;
@@ -255,7 +255,7 @@ input:checked ~ .bevel + span {
   font-size: 13.5px;
 }
 .animated-mail .letter .letter-stamp {
-  margin-top: -60px;
+  margin-top: -50px;
   margin-left: 320px;
   border-radius: 100%;
   height: 30px;
