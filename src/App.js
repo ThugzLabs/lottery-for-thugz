@@ -20,6 +20,12 @@ const listing = [];
   function lance() {
     lottery()
     const random = Math.floor(Math.random() * listing.length)
+    const e = document.getElementById("result");
+    const custom_style= {display: "block"}
+
+    //Object.assign():
+    Object.assign(e.style,custom_style)
+
     setWinner(listing[random])
   }
 
@@ -28,7 +34,7 @@ const listing = [];
     <div class="logo"><img src="https://ranking.thugz.life/static/media/ThugzNFT-Logo.c5feeed78011eb150d8a.png" alt="Thugz Life NFT Logo"></img></div>
     <h1 class="title gradient-text">Thugz Lottery</h1>
 
-    <div class="result">
+    <div id="result">
 
       <div class="letter-image">
         <div class="animated-mail">
@@ -47,11 +53,10 @@ const listing = [];
         </div>
         <div class="shadow"></div>
       </div>
-      
+
     </div>
     <input onClick={lance} type="checkbox" name="button" id="button" />
-    <label class="bevel" for="button">We have our Winner !</label>
-    <span>Draw a Winner</span>
+    <label class="bevel" for="button">Draw a Winner</label>
   </div>
   )
 }

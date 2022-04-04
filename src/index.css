@@ -60,26 +60,6 @@ html, body {
   white-space: nowrap;
   user-select: none;
 }
-@media (max-width: 320px) {
-  html, body {
-    transform: scale(1.125);
- }
-}
-@media (max-width: 280px) {
-  html, body {
-    transform: scale(1.0625);
- }
-}
-@media (max-width: 220px) {
-  html, body {
-    transform: scale(1);
- }
-}
-@media (max-width: 200px) {
-  html, body {
-    transform: scale(0.9);
- }
-}
 input {
   display: none;
 }
@@ -106,7 +86,8 @@ label {
   transform: scale(1.01);
   transition: all 0.2s ease-in-out;
 }
-.bevel:before, .bevel:after {
+.bevel:before, 
+.bevel:after {
   content: " ";
   width: 27px;
   max-width: 50%;
@@ -156,27 +137,14 @@ input:checked ~ .bevel + span {
   color: rgba(255, 51, 51, 0.1875);
   transform: translateY(56px);
 }
-span {
-  display: block;
-  margin-bottom: 10px;
-  font-family: "Didact Gothic";
-  font-size: 32px;
-  font-weight: 700;
-  color: #222;
-  z-index: -1;
-  transition: all 0.25s ease-in-out;
-  transition: all 0.45s cubic-bezier(0.74, 0.16, 0.24, 0.92);
-  transition-delay: 0.135s;
-}
 
 
 
 
 /* LETTER */
 
-body {
-  background: #323641;
-}
+#result {display: none;}
+
 .letter-image {
   position: absolute;
   top: 50%;
