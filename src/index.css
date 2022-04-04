@@ -47,6 +47,22 @@ code {
 
 /* BEVEL BUTTON */
 
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 100%;
+  font-family: "Chewy";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: scale(1.25);
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+}
+
 label {
   cursor: pointer;
 }
