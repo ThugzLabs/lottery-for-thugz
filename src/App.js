@@ -41,8 +41,8 @@ const listing = [];
           <div class="back-fold"></div>
           <div class="letter">
             <div class="letter-border"></div>
-            <div class="letter-title"></div>
             <div class="letter-label">Wallet :</div>
+            <div class="letter-title"></div>
             <div class="letter-context">{winner !== null ?  winner : null}</div>
             <div class="letter-stamp">
               <div class="letter-stamp-inner"></div>
