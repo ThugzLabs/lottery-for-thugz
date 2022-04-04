@@ -55,9 +55,12 @@ const listing = [];
         <div class="shadow"></div>
       </div>
 
+      <div class="drawing">
+        <input onClick={lance} type="checkbox" name="button" id="button" />
+        <label class="bevel" for="button">Draw a Winner</label>
+      </div>
+
     </div>
-    <input onClick={lance} type="checkbox" name="button" id="button" />
-    <label class="bevel" for="button">Draw a Winner</label>
   </div>
   )
 }

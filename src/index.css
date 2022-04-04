@@ -26,7 +26,7 @@ code {
 }
 
 #root {
-  margin: 50px auto 0;
+  margin: 20px auto 0;
 }
 
 .logo img {
@@ -233,9 +233,9 @@ input:checked ~ .bevel + span {
   background: repeating-linear-gradient(-45deg, #cb5a5e, #cb5a5e 8px, transparent 8px, transparent 18px);
 }
 .animated-mail .letter .letter-title {
-  margin-top: 10px;
+  height: 6px;
   margin-left: 5px;
-  height: 10px;
+  margin-top: 5px;
   width: 40%;
   background: #cb5a5e;
 }
@@ -249,7 +249,7 @@ input:checked ~ .bevel + span {
 .animated-mail .letter .letter-context {
   height: 10px;
   margin-left: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 25%;
   font-family: Georgia;
   font-size: 13.5px;
