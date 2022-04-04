@@ -47,7 +47,7 @@ code {
 
 /* BEVEL BUTTON */
 
-html, body {
+.drawing {
   display: flex;
   align-items: center;
   justify-content: center;
