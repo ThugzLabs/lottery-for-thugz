@@ -1,4 +1,4 @@
-[	
+export default [	
 	{
 	"adress": "AZjvzDxWN8iC5oWKzrHC1jC1eGVvuHaisdKeiXYnL9Ty",
 		"amount": 9,
