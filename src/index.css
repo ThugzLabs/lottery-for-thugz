@@ -37,7 +37,7 @@ code {
 }
 
 .lottery {text-align: center;}
-.title {margin: 70px auto 30px}
+.title {margin: 70px auto 30px; font-size: 60px;}
 
 .result {display: none;}
 
@@ -148,7 +148,7 @@ input:checked ~ .bevel + span {
 
 /* LETTER */
 
-#letter {display: none;}
+#letter {display: none; margin-top: 20px; transform: scale(1.25);}
 
 .letter-image {
   position: absolute;

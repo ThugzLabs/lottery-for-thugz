@@ -32,7 +32,7 @@ const listing = [];
   return(
   <div className="lottery">
     <div class="logo"><img src="https://ranking.thugz.life/static/media/ThugzNFT-Logo.c5feeed78011eb150d8a.png" alt="Thugz Life NFT Logo"></img></div>
-    <h1 class="title gradient-text">Thugz Lottery</h1>
+    <h1 class="title gradient-text">Mega Lottery</h1>
 
     <div id="result">
 
