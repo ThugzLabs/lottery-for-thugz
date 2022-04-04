@@ -154,7 +154,7 @@ input:checked ~ .bevel + span {
   position: absolute;
   z-index: 10;
   top: 60%;
-  left: 50%;
+  left: 37%;
   width: 400px;
   height: 200px;
   -webkit-transform: translate(-50%, -50%);
