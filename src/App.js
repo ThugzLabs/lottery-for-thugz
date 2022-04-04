@@ -20,7 +20,7 @@ const listing = [];
   function lance() {
     lottery()
     const random = Math.floor(Math.random() * listing.length)
-    const e = document.getElementById("result");
+    const e = document.getElementById("letter");
     const custom_style= {display: "block"}
 
     //Object.assign():
@@ -36,7 +36,7 @@ const listing = [];
 
     <div id="result">
 
-      <div class="letter-image">
+      <div id="letter" class="letter-image">
         <div class="animated-mail">
           <div class="back-fold"></div>
           <div class="letter">
