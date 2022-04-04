@@ -28,11 +28,10 @@ const listing = [];
     <div class="logo"><img src="https://ranking.thugz.life/static/media/ThugzNFT-Logo.c5feeed78011eb150d8a.png" alt="Thugz Life NFT Logo"></img></div>
     <h1 class="title gradient-text">Thugz Lottery</h1>
     <div class="result">{winner !== null ?  winner : null}</div>
-    <button onClick={lance}>DRAW THE WINNER NOW</button>
 
     <input onClick={lance} type="checkbox" name="button" id="button" />
-    <label class="bevel" for="button">Get Bevel’d</label>
-    <span>Bevel Up</span>
+    <label class="bevel" for="button">We have our Winner !</label>
+    <span>DRAW a WINNER</span>
   </div>
   )
 }
