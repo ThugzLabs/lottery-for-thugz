@@ -149,9 +149,8 @@ input:checked ~ .bevel + span {
 
 /* LETTER */
 
-#result {display: none;}
-
 .letter-image {
+  display: none;
   position: absolute;
   top: 65%;
   left: 50%;
