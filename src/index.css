@@ -39,9 +39,11 @@ code {
 .lottery {text-align: center;}
 .title {margin: 70px auto 30px}
 
-.result {
+.result {display: none;}
 
-}
+
+
+
 
 /* BEVEL BUTTON */
 
@@ -141,15 +143,19 @@ input:checked ~ .bevel + span {
 
 
 
+
+
+
+
 /* LETTER */
 
 #result {display: none;}
 
 .letter-image {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
-  width: 200px;
+  width: 400px;
   height: 200px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -159,7 +165,7 @@ input:checked ~ .bevel + span {
 .animated-mail {
   position: absolute;
   height: 150px;
-  width: 200px;
+  width: 400px;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   transition: 0.4s;
@@ -193,7 +199,7 @@ input:checked ~ .bevel + span {
 .animated-mail .back-fold {
   position: absolute;
   bottom: 0;
-  width: 200px;
+  width: 400px;
   height: 100px;
   background: #cf4a43;
   z-index: 0;
