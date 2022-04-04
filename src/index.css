@@ -62,9 +62,7 @@ html, body {
   white-space: nowrap;
   user-select: none;
 }
-input {
-  display: none;
-}
+
 label {
   cursor: pointer;
 }
