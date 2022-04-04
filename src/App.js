@@ -29,8 +29,8 @@ const listing = [];
     <h1 class="title gradient-text">Thugz Lottery</h1>
     <div class="result">{winner !== null ?  winner : null}</div>
     <button onClick={lance}>DRAW THE WINNER NOW</button>
-    
-    <input onClick={lance} type="checkbox" name="button" id="button">
+
+    <input onClick={lance} type="checkbox" name="button" id="button" />
     <label class="bevel" for="button">Get Bevel’d</label>
     <span>Bevel Up</span>
   </div>
